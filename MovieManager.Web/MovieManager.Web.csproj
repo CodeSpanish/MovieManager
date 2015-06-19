@@ -240,6 +240,28 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MovieManager.BusinessLogic\MovieManager.BusinessLogic.csproj">
+      <Project>{3eb25ca5-bcfe-44ac-86a6-a8c29dae6cab}</Project>
+      <Name>MovieManager.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MovieManager.Console\MovieManager.Console.csproj">
+      <Project>{eb6cf604-2eca-4652-a4d0-8cd6af4bdacd}</Project>
+      <Name>MovieManager.Console</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MovieManager.Data\MovieManager.Data.csproj">
+      <Project>{6c227b3f-0f74-4731-9044-64d1f7fb0185}</Project>
+      <Name>MovieManager.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MovieManager.Services\MovieManager.Services.csproj">
+      <Project>{1b717d48-ea7e-4599-984b-6161c6d061ff}</Project>
+      <Name>MovieManager.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MovieManager.Test\MovieManager.Test.csproj">
+      <Project>{d1284e62-a38b-47dc-aae0-351d85c759d3}</Project>
+      <Name>MovieManager.Test</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
