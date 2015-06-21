@@ -1,9 +1,9 @@
-﻿using NHibernate;
+﻿using MovieManager.Data.Models;
 
 namespace MovieManager.BusinessLogic
 {
     interface IMovieController
     {
-        void UpdateMovie(MovieManager.Data.Domains.IMovie movie);
+        void UpdateMovie(IMovie movie);
     }
 }
