@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMovieListController.cs" />
     <Compile Include="IMovieController.cs" />
+    <Compile Include="ListController.cs" />
     <Compile Include="MovieController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

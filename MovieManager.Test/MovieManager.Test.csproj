@@ -67,10 +67,6 @@
       <Project>{1b717d48-ea7e-4599-984b-6161c6d061ff}</Project>
       <Name>MovieManager.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MovieManager.Console\MovieManager.Console.csproj">
-      <Project>{eb6cf604-2eca-4652-a4d0-8cd6af4bdacd}</Project>
-      <Name>MovieManager.Console</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
