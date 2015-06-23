@@ -113,14 +113,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\ConnectionStrings.Debug.config">
+    <Content Include="App_Config\ConnectionStrings.Debug.config">
       <DependentUpon>ConnectionStrings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
-    </None>
-    <None Include="App_Config\ConnectionStrings.Release.config">
+    </Content>
+    <Content Include="App_Config\ConnectionStrings.Release.config">
       <DependentUpon>ConnectionStrings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
-    </None>
+    </Content>
     <Content Include="Properties\SlowCheetah\SlowCheetah.Transforms.targets" />
   </ItemGroup>
   <PropertyGroup>
