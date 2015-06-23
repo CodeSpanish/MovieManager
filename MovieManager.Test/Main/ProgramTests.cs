@@ -8,7 +8,7 @@ namespace MovieManager.Test
         [TestMethod]
         public void TestMain()
         {
-            MovieManager.Program.Main(new string[]{""});
+
         }
     }
 }
